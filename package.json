@@ -1,6 +1,11 @@
 {
   "name": "ng2-starter",
   "version": "0.0.1",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rm -rf dist",
+    "serve": "webpack-dev-server"
+  },
   "dependencies": {
     "@angular/common": "^2.4.9",
     "@angular/compiler": "^2.4.9",
